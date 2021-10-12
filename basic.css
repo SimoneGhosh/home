@@ -1,0 +1,67 @@
+#menu-outer 
+{
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+.table 
+{
+	display: table; 	/* Allow the centering to work. */
+	margin: 0 auto;
+}
+
+ul#horizontal-list 
+{
+	min-width: 575px;
+	list-style: none;
+	padding-top: 1px;
+}
+
+ul#horizontal-list li 
+{
+	display: inline;
+}
+#backgroundImg
+{
+    width: 100%;
+    height: auto;
+}
+body
+{
+	background-color: #EEEEFF;
+}
+.centreImg 	/* Class is added to all images so that they are aligned. */
+{
+	margin-top: -50%;
+	margin-left: 52%;
+	border-style: solid;
+	border-width: 2px; 	/* Border added to help images blend in with website. */
+	border-color: #131038;
+}
+.margin
+{
+	margin-right: 50%;
+}
+h1
+{
+	font-family: ultra, "sans serif";
+	font-size: 50px;
+	color: #131038;
+}
+h2
+{
+	font-family: ultra, "sans serif";
+	font-size: 35px;		
+	color: #131038;
+}
+h3
+{
+	font-family: ultra, "sans serif";
+	font-size: 25px;
+	color: #131038;
+}
+p, li, td
+{
+	font-family: "open sans", "sans serif";
+	font-size: 15px;
+	color: #131038;
+}
